@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="57" passed="41" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-21T23:42:22 IST" name="Chrome_Suite" finished-at="2021-07-21T23:42:22 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Chrome_Suite -->
+  <suite started-at="2021-07-21T23:37:56 IST" name="Smoke_Suite" finished-at="2021-07-21T23:38:26 IST" duration-ms="30273">
+    <groups>
+    </groups>
+    <test started-at="2021-07-21T23:37:56 IST" name="Smoke_Test" finished-at="2021-07-21T23:38:26 IST" duration-ms="30273">
+      <class name="testScenarios.TS_UICheck">
+        <test-method is-config="true" signature="openWebsite(java.lang.String)[pri:0, instance:testScenarios.TS_UICheck@593aaf41]" started-at="2021-07-21T23:37:15 IST" name="openWebsite" finished-at="2021-07-21T23:37:56 IST" duration-ms="40618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method is-config="true" signature="TC_initiateClasses()[pri:0, instance:testScenarios.TS_UICheck@593aaf41]" started-at="2021-07-21T23:37:56 IST" name="TC_initiateClasses" finished-at="2021-07-21T23:37:56 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_initiateClasses -->
+        <test-method signature="TC_selectLoanCalculator()[pri:1, instance:testScenarios.TS_UICheck@593aaf41]" started-at="2021-07-21T23:37:56 IST" name="TC_selectLoanCalculator" finished-at="2021-07-21T23:38:08 IST" duration-ms="11520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_selectLoanCalculator -->
+        <test-method signature="TC_emiCalculator()[pri:2, instance:testScenarios.TS_UICheck@593aaf41]" started-at="2021-07-21T23:38:08 IST" name="TC_emiCalculator" finished-at="2021-07-21T23:38:11 IST" duration-ms="3015" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <label class="btn btn-secondary">...</label> is not clickable at point (722, 641). Other element would receive the click: <iframe id="aswift_5" name="" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="90" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/html/r20210714/r20190131/zrt_lookup.html?fsb=1#RS-0-&amp;adk=1812271801&amp;client=ca-pub-6020664305604651&amp;fa=1&amp;ifi=6&amp;uci=a!6&amp;btvi=3" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" style="display: block; margin: 0px auto;" data-google-container-id="a!6" data-google-query-id="CNT7pOng9PECFTQh1QodlhkH2A" data-load-complete="true"></iframe>
+  (Session info: chrome=91.0.4472.164)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VG18RRG', ip: '192.168.101.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\TAHSKA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62267}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 50a8f0af330209d66a8bd0b9d5efab0b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label class="btn btn-secondary">...</label> is not clickable at point (722, 641). Other element would receive the click: <iframe id="aswift_5" name="" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="90" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/html/r20210714/r20190131/zrt_lookup.html?fsb=1#RS-0-&amp;adk=1812271801&amp;client=ca-pub-6020664305604651&amp;fa=1&amp;ifi=6&amp;uci=a!6&amp;btvi=3" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" style="display: block; margin: 0px auto;" data-google-container-id="a!6" data-google-query-id="CNT7pOng9PECFTQh1QodlhkH2A" data-load-complete="true"></iframe>
+  (Session info: chrome=91.0.4472.164)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VG18RRG', ip: '192.168.101.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\TAHSKA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62267}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 50a8f0af330209d66a8bd0b9d5efab0b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at mainFunctionalities.LoanCalculatorFunctionalities.checkLoanTenureTextBox(LoanCalculatorFunctionalities.java:76)
+at testScenarios.TS_UICheck.TC_emiCalculator(TS_UICheck.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_emiCalculator -->
+        <test-method signature="TC_loanAmountCalculator()[pri:3, instance:testScenarios.TS_UICheck@593aaf41]" started-at="2021-07-21T23:38:11 IST" name="TC_loanAmountCalculator" finished-at="2021-07-21T23:38:12 IST" duration-ms="1791" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <label class="btn btn-secondary">...</label> is not clickable at point (722, 649). Other element would receive the click: <iframe id="aswift_5" name="" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="90" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/html/r20210714/r20190131/zrt_lookup.html?fsb=1#RS-0-&amp;adk=1812271801&amp;client=ca-pub-6020664305604651&amp;fa=1&amp;ifi=6&amp;uci=a!6&amp;btvi=3" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" style="display: block; margin: 0px auto;" data-google-container-id="a!6" data-google-query-id="CNT7pOng9PECFTQh1QodlhkH2A" data-load-complete="true"></iframe>
+  (Session info: chrome=91.0.4472.164)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VG18RRG', ip: '192.168.101.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\TAHSKA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62267}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 50a8f0af330209d66a8bd0b9d5efab0b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label class="btn btn-secondary">...</label> is not clickable at point (722, 649). Other element would receive the click: <iframe id="aswift_5" name="" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="90" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/html/r20210714/r20190131/zrt_lookup.html?fsb=1#RS-0-&amp;adk=1812271801&amp;client=ca-pub-6020664305604651&amp;fa=1&amp;ifi=6&amp;uci=a!6&amp;btvi=3" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" style="display: block; margin: 0px auto;" data-google-container-id="a!6" data-google-query-id="CNT7pOng9PECFTQh1QodlhkH2A" data-load-complete="true"></iframe>
+  (Session info: chrome=91.0.4472.164)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VG18RRG', ip: '192.168.101.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.164, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\TAHSKA\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62267}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 50a8f0af330209d66a8bd0b9d5efab0b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at mainFunctionalities.LoanCalculatorFunctionalities.checkLoanTenureTextBox1(LoanCalculatorFunctionalities.java:88)
+at testScenarios.TS_UICheck.TC_loanAmountCalculator(TS_UICheck.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loanAmountCalculator -->
+        <test-method signature="TC_loanTenureCalculator()[pri:4, instance:testScenarios.TS_UICheck@593aaf41]" started-at="2021-07-21T23:38:12 IST" name="TC_loanTenureCalculator" finished-at="2021-07-21T23:38:26 IST" duration-ms="13787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loanTenureCalculator -->
+        <test-method is-config="true" signature="exitBrowser()[pri:0, instance:testScenarios.TS_UICheck@593aaf41]" started-at="2021-07-21T23:38:26 IST" name="exitBrowser" finished-at="2021-07-21T23:38:29 IST" duration-ms="3022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+      </class> <!-- testScenarios.TS_UICheck -->
+    </test> <!-- Smoke_Test -->
+  </suite> <!-- Smoke_Suite -->
+  <suite started-at="2021-07-21T23:42:22 IST" name="Firefox_Suite" finished-at="2021-07-21T23:42:22 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Firefox_Suite -->
+  <suite started-at="2021-07-21T23:42:22 IST" name="Hackathon_DataDriver" finished-at="2021-07-21T23:42:22 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Hackathon_DataDriver -->
+  <suite started-at="2021-07-21T23:42:22 IST" name="Edge_Suite" finished-at="2021-07-21T23:42:22 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Edge_Suite -->
+  <suite started-at="2021-07-21T23:40:36 IST" name="Regression_Suite (0)" finished-at="2021-07-21T23:40:45 IST" duration-ms="8817">
+    <groups>
+    </groups>
+    <test started-at="2021-07-21T23:40:36 IST" name="Regresion_Test" finished-at="2021-07-21T23:40:45 IST" duration-ms="8817">
+      <class name="testScenarios.TS_CarLoan">
+        <test-method is-config="true" signature="openWebsite(java.lang.String)[pri:0, instance:testScenarios.TS_CarLoan@4d5650ae]" started-at="2021-07-21T23:40:23 IST" name="openWebsite" finished-at="2021-07-21T23:40:36 IST" duration-ms="13645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method is-config="true" signature="TC_initiate()[pri:0, instance:testScenarios.TS_CarLoan@4d5650ae]" started-at="2021-07-21T23:40:36 IST" name="TC_initiate" finished-at="2021-07-21T23:40:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_initiate -->
+        <test-method signature="TC_carLoanSelect()[pri:1, instance:testScenarios.TS_CarLoan@4d5650ae]" started-at="2021-07-21T23:40:36 IST" name="TC_carLoanSelect" finished-at="2021-07-21T23:40:37 IST" duration-ms="955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_carLoanSelect -->
+        <test-method signature="TC_enterDetails()[pri:2, instance:testScenarios.TS_CarLoan@4d5650ae]" started-at="2021-07-21T23:40:37 IST" name="TC_enterDetails" finished-at="2021-07-21T23:40:39 IST" duration-ms="1875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_enterDetails -->
+        <test-method signature="TC_selectMonth()[pri:3, instance:testScenarios.TS_CarLoan@4d5650ae]" started-at="2021-07-21T23:40:39 IST" name="TC_selectMonth" finished-at="2021-07-21T23:40:40 IST" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_selectMonth -->
+        <test-method signature="TC_displayResult()[pri:4, instance:testScenarios.TS_CarLoan@4d5650ae]" started-at="2021-07-21T23:40:40 IST" name="TC_displayResult" finished-at="2021-07-21T23:40:41 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_displayResult -->
+        <test-method is-config="true" signature="exitBrowser()[pri:0, instance:testScenarios.TS_CarLoan@4d5650ae]" started-at="2021-07-21T23:40:45 IST" name="exitBrowser" finished-at="2021-07-21T23:40:46 IST" duration-ms="1239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+      </class> <!-- testScenarios.TS_CarLoan -->
+      <class name="testScenarios.TS_HomeLoan">
+        <test-method is-config="true" signature="TC_initiateClasses()[pri:0, instance:testScenarios.TS_HomeLoan@a38c7fe]" started-at="2021-07-21T23:40:36 IST" name="TC_initiateClasses" finished-at="2021-07-21T23:40:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_initiateClasses -->
+        <test-method signature="TC_homeLoanSelect()[pri:1, instance:testScenarios.TS_HomeLoan@a38c7fe]" started-at="2021-07-21T23:40:41 IST" name="TC_homeLoanSelect" finished-at="2021-07-21T23:40:41 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_homeLoanSelect -->
+        <test-method signature="TC_readHomeLoanData()[pri:2, instance:testScenarios.TS_HomeLoan@a38c7fe]" started-at="2021-07-21T23:40:41 IST" name="TC_readHomeLoanData" finished-at="2021-07-21T23:40:42 IST" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_readHomeLoanData -->
+        <test-method signature="TC_scrollDown()[pri:3, instance:testScenarios.TS_HomeLoan@a38c7fe]" started-at="2021-07-21T23:40:42 IST" name="TC_scrollDown" finished-at="2021-07-21T23:40:43 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_scrollDown -->
+        <test-method signature="TC_yearWiseData()[pri:4, instance:testScenarios.TS_HomeLoan@a38c7fe]" started-at="2021-07-21T23:40:43 IST" name="TC_yearWiseData" finished-at="2021-07-21T23:40:44 IST" duration-ms="806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_yearWiseData -->
+      </class> <!-- testScenarios.TS_HomeLoan -->
+      <class name="testScenarios.TS_PersonalLoan">
+        <test-method is-config="true" signature="TC_initiateClasses()[pri:0, instance:testScenarios.TS_PersonalLoan@6fdbe764]" started-at="2021-07-21T23:40:36 IST" name="TC_initiateClasses" finished-at="2021-07-21T23:40:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_initiateClasses -->
+        <test-method signature="TC_personalLoanSelect()[pri:1, instance:testScenarios.TS_PersonalLoan@6fdbe764]" started-at="2021-07-21T23:40:44 IST" name="TC_personalLoanSelect" finished-at="2021-07-21T23:40:44 IST" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_personalLoanSelect -->
+        <test-method signature="TC_enterDetails()[pri:2, instance:testScenarios.TS_PersonalLoan@6fdbe764]" started-at="2021-07-21T23:40:44 IST" name="TC_enterDetails" finished-at="2021-07-21T23:40:45 IST" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_enterDetails -->
+        <test-method signature="TC_scrollDown()[pri:3, instance:testScenarios.TS_PersonalLoan@6fdbe764]" started-at="2021-07-21T23:40:45 IST" name="TC_scrollDown" finished-at="2021-07-21T23:40:45 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_scrollDown -->
+      </class> <!-- testScenarios.TS_PersonalLoan -->
+    </test> <!-- Regresion_Test -->
+  </suite> <!-- Regression_Suite (0) -->
+  <suite started-at="2021-07-21T23:42:09 IST" name="Regression_Suite (1)" finished-at="2021-07-21T23:42:19 IST" duration-ms="10316">
+    <groups>
+    </groups>
+    <test started-at="2021-07-21T23:42:09 IST" name="Regresion_Test" finished-at="2021-07-21T23:42:19 IST" duration-ms="10316">
+      <class name="testScenarios.TS_CarLoan">
+        <test-method is-config="true" signature="openWebsite(java.lang.String)[pri:0, instance:testScenarios.TS_CarLoan@537f60bf]" started-at="2021-07-21T23:41:50 IST" name="openWebsite" finished-at="2021-07-21T23:42:09 IST" duration-ms="19060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method is-config="true" signature="TC_initiate()[pri:0, instance:testScenarios.TS_CarLoan@537f60bf]" started-at="2021-07-21T23:42:09 IST" name="TC_initiate" finished-at="2021-07-21T23:42:09 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_initiate -->
+        <test-method signature="TC_carLoanSelect()[pri:1, instance:testScenarios.TS_CarLoan@537f60bf]" started-at="2021-07-21T23:42:09 IST" name="TC_carLoanSelect" finished-at="2021-07-21T23:42:09 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_carLoanSelect -->
+        <test-method signature="TC_enterDetails()[pri:2, instance:testScenarios.TS_CarLoan@537f60bf]" started-at="2021-07-21T23:42:09 IST" name="TC_enterDetails" finished-at="2021-07-21T23:42:12 IST" duration-ms="2319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_enterDetails -->
+        <test-method signature="TC_selectMonth()[pri:3, instance:testScenarios.TS_CarLoan@537f60bf]" started-at="2021-07-21T23:42:12 IST" name="TC_selectMonth" finished-at="2021-07-21T23:42:13 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_selectMonth -->
+        <test-method signature="TC_displayResult()[pri:4, instance:testScenarios.TS_CarLoan@537f60bf]" started-at="2021-07-21T23:42:13 IST" name="TC_displayResult" finished-at="2021-07-21T23:42:13 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_displayResult -->
+        <test-method is-config="true" signature="exitBrowser()[pri:0, instance:testScenarios.TS_CarLoan@537f60bf]" started-at="2021-07-21T23:42:19 IST" name="exitBrowser" finished-at="2021-07-21T23:42:22 IST" duration-ms="2859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+      </class> <!-- testScenarios.TS_CarLoan -->
+      <class name="testScenarios.TS_HomeLoan">
+        <test-method is-config="true" signature="TC_initiateClasses()[pri:0, instance:testScenarios.TS_HomeLoan@5677323c]" started-at="2021-07-21T23:42:09 IST" name="TC_initiateClasses" finished-at="2021-07-21T23:42:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_initiateClasses -->
+        <test-method signature="TC_homeLoanSelect()[pri:1, instance:testScenarios.TS_HomeLoan@5677323c]" started-at="2021-07-21T23:42:13 IST" name="TC_homeLoanSelect" finished-at="2021-07-21T23:42:13 IST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_homeLoanSelect -->
+        <test-method signature="TC_readHomeLoanData()[pri:2, instance:testScenarios.TS_HomeLoan@5677323c]" started-at="2021-07-21T23:42:13 IST" name="TC_readHomeLoanData" finished-at="2021-07-21T23:42:15 IST" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_readHomeLoanData -->
+        <test-method signature="TC_scrollDown()[pri:3, instance:testScenarios.TS_HomeLoan@5677323c]" started-at="2021-07-21T23:42:15 IST" name="TC_scrollDown" finished-at="2021-07-21T23:42:15 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_scrollDown -->
+        <test-method signature="TC_yearWiseData()[pri:4, instance:testScenarios.TS_HomeLoan@5677323c]" started-at="2021-07-21T23:42:15 IST" name="TC_yearWiseData" finished-at="2021-07-21T23:42:16 IST" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_yearWiseData -->
+      </class> <!-- testScenarios.TS_HomeLoan -->
+      <class name="testScenarios.TS_PersonalLoan">
+        <test-method is-config="true" signature="TC_initiateClasses()[pri:0, instance:testScenarios.TS_PersonalLoan@18df8434]" started-at="2021-07-21T23:42:09 IST" name="TC_initiateClasses" finished-at="2021-07-21T23:42:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_initiateClasses -->
+        <test-method signature="TC_personalLoanSelect()[pri:1, instance:testScenarios.TS_PersonalLoan@18df8434]" started-at="2021-07-21T23:42:16 IST" name="TC_personalLoanSelect" finished-at="2021-07-21T23:42:17 IST" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_personalLoanSelect -->
+        <test-method signature="TC_enterDetails()[pri:2, instance:testScenarios.TS_PersonalLoan@18df8434]" started-at="2021-07-21T23:42:17 IST" name="TC_enterDetails" finished-at="2021-07-21T23:42:19 IST" duration-ms="2051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_enterDetails -->
+        <test-method signature="TC_scrollDown()[pri:3, instance:testScenarios.TS_PersonalLoan@18df8434]" started-at="2021-07-21T23:42:19 IST" name="TC_scrollDown" finished-at="2021-07-21T23:42:19 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_scrollDown -->
+      </class> <!-- testScenarios.TS_PersonalLoan -->
+    </test> <!-- Regresion_Test -->
+  </suite> <!-- Regression_Suite (1) -->
+  <suite started-at="2021-07-21T23:41:21 IST" name="Smoke_Suite (1)" finished-at="2021-07-21T23:41:40 IST" duration-ms="18664">
+    <groups>
+    </groups>
+    <test started-at="2021-07-21T23:41:21 IST" name="Smoke_Test" finished-at="2021-07-21T23:41:40 IST" duration-ms="18664">
+      <class name="testScenarios.TS_UICheck">
+        <test-method is-config="true" signature="openWebsite(java.lang.String)[pri:0, instance:testScenarios.TS_UICheck@3012646b]" started-at="2021-07-21T23:40:46 IST" name="openWebsite" finished-at="2021-07-21T23:41:21 IST" duration-ms="34913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method is-config="true" signature="TC_initiateClasses()[pri:0, instance:testScenarios.TS_UICheck@3012646b]" started-at="2021-07-21T23:41:21 IST" name="TC_initiateClasses" finished-at="2021-07-21T23:41:21 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_initiateClasses -->
+        <test-method signature="TC_selectLoanCalculator()[pri:1, instance:testScenarios.TS_UICheck@3012646b]" started-at="2021-07-21T23:41:21 IST" name="TC_selectLoanCalculator" finished-at="2021-07-21T23:41:28 IST" duration-ms="6199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_selectLoanCalculator -->
+        <test-method signature="TC_emiCalculator()[pri:2, instance:testScenarios.TS_UICheck@3012646b]" started-at="2021-07-21T23:41:28 IST" name="TC_emiCalculator" finished-at="2021-07-21T23:41:33 IST" duration-ms="5166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_emiCalculator -->
+        <test-method signature="TC_loanAmountCalculator()[pri:3, instance:testScenarios.TS_UICheck@3012646b]" started-at="2021-07-21T23:41:33 IST" name="TC_loanAmountCalculator" finished-at="2021-07-21T23:41:36 IST" duration-ms="3624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loanAmountCalculator -->
+        <test-method signature="TC_loanTenureCalculator()[pri:4, instance:testScenarios.TS_UICheck@3012646b]" started-at="2021-07-21T23:41:36 IST" name="TC_loanTenureCalculator" finished-at="2021-07-21T23:41:40 IST" duration-ms="3652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loanTenureCalculator -->
+        <test-method is-config="true" signature="exitBrowser()[pri:0, instance:testScenarios.TS_UICheck@3012646b]" started-at="2021-07-21T23:41:40 IST" name="exitBrowser" finished-at="2021-07-21T23:41:50 IST" duration-ms="9611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+      </class> <!-- testScenarios.TS_UICheck -->
+    </test> <!-- Smoke_Test -->
+  </suite> <!-- Smoke_Suite (1) -->
+  <suite started-at="2021-07-21T23:38:38 IST" name="Regression_Suite" finished-at="2021-07-21T23:38:49 IST" duration-ms="11885">
+    <groups>
+    </groups>
+    <test started-at="2021-07-21T23:38:38 IST" name="Regresion_Test" finished-at="2021-07-21T23:38:49 IST" duration-ms="11885">
+      <class name="testScenarios.TS_CarLoan">
+        <test-method is-config="true" signature="openWebsite(java.lang.String)[pri:0, instance:testScenarios.TS_CarLoan@1ed6388a]" started-at="2021-07-21T23:38:29 IST" name="openWebsite" finished-at="2021-07-21T23:38:38 IST" duration-ms="8167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method is-config="true" signature="TC_initiate()[pri:0, instance:testScenarios.TS_CarLoan@1ed6388a]" started-at="2021-07-21T23:38:38 IST" name="TC_initiate" finished-at="2021-07-21T23:38:38 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_initiate -->
+        <test-method signature="TC_carLoanSelect()[pri:1, instance:testScenarios.TS_CarLoan@1ed6388a]" started-at="2021-07-21T23:38:38 IST" name="TC_carLoanSelect" finished-at="2021-07-21T23:38:38 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_carLoanSelect -->
+        <test-method signature="TC_enterDetails()[pri:2, instance:testScenarios.TS_CarLoan@1ed6388a]" started-at="2021-07-21T23:38:38 IST" name="TC_enterDetails" finished-at="2021-07-21T23:38:40 IST" duration-ms="1300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_enterDetails -->
+        <test-method signature="TC_selectMonth()[pri:3, instance:testScenarios.TS_CarLoan@1ed6388a]" started-at="2021-07-21T23:38:40 IST" name="TC_selectMonth" finished-at="2021-07-21T23:38:41 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_selectMonth -->
+        <test-method signature="TC_displayResult()[pri:4, instance:testScenarios.TS_CarLoan@1ed6388a]" started-at="2021-07-21T23:38:41 IST" name="TC_displayResult" finished-at="2021-07-21T23:38:43 IST" duration-ms="2608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_displayResult -->
+        <test-method is-config="true" signature="exitBrowser()[pri:0, instance:testScenarios.TS_CarLoan@1ed6388a]" started-at="2021-07-21T23:38:49 IST" name="exitBrowser" finished-at="2021-07-21T23:38:52 IST" duration-ms="2113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+      </class> <!-- testScenarios.TS_CarLoan -->
+      <class name="testScenarios.TS_HomeLoan">
+        <test-method is-config="true" signature="TC_initiateClasses()[pri:0, instance:testScenarios.TS_HomeLoan@5a45133e]" started-at="2021-07-21T23:38:38 IST" name="TC_initiateClasses" finished-at="2021-07-21T23:38:38 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_initiateClasses -->
+        <test-method signature="TC_homeLoanSelect()[pri:1, instance:testScenarios.TS_HomeLoan@5a45133e]" started-at="2021-07-21T23:38:43 IST" name="TC_homeLoanSelect" finished-at="2021-07-21T23:38:44 IST" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_homeLoanSelect -->
+        <test-method signature="TC_readHomeLoanData()[pri:2, instance:testScenarios.TS_HomeLoan@5a45133e]" started-at="2021-07-21T23:38:44 IST" name="TC_readHomeLoanData" finished-at="2021-07-21T23:38:46 IST" duration-ms="2519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_readHomeLoanData -->
+        <test-method signature="TC_scrollDown()[pri:3, instance:testScenarios.TS_HomeLoan@5a45133e]" started-at="2021-07-21T23:38:46 IST" name="TC_scrollDown" finished-at="2021-07-21T23:38:47 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_scrollDown -->
+        <test-method signature="TC_yearWiseData()[pri:4, instance:testScenarios.TS_HomeLoan@5a45133e]" started-at="2021-07-21T23:38:47 IST" name="TC_yearWiseData" finished-at="2021-07-21T23:38:48 IST" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_yearWiseData -->
+      </class> <!-- testScenarios.TS_HomeLoan -->
+      <class name="testScenarios.TS_PersonalLoan">
+        <test-method is-config="true" signature="TC_initiateClasses()[pri:0, instance:testScenarios.TS_PersonalLoan@534a5a98]" started-at="2021-07-21T23:38:38 IST" name="TC_initiateClasses" finished-at="2021-07-21T23:38:38 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_initiateClasses -->
+        <test-method signature="TC_personalLoanSelect()[pri:1, instance:testScenarios.TS_PersonalLoan@534a5a98]" started-at="2021-07-21T23:38:48 IST" name="TC_personalLoanSelect" finished-at="2021-07-21T23:38:48 IST" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_personalLoanSelect -->
+        <test-method signature="TC_enterDetails()[pri:2, instance:testScenarios.TS_PersonalLoan@534a5a98]" started-at="2021-07-21T23:38:48 IST" name="TC_enterDetails" finished-at="2021-07-21T23:38:49 IST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_enterDetails -->
+        <test-method signature="TC_scrollDown()[pri:3, instance:testScenarios.TS_PersonalLoan@534a5a98]" started-at="2021-07-21T23:38:49 IST" name="TC_scrollDown" finished-at="2021-07-21T23:38:49 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_scrollDown -->
+      </class> <!-- testScenarios.TS_PersonalLoan -->
+    </test> <!-- Regresion_Test -->
+  </suite> <!-- Regression_Suite -->
+  <suite started-at="2021-07-21T23:39:49 IST" name="Smoke_Suite (0)" finished-at="2021-07-21T23:40:18 IST" duration-ms="28976">
+    <groups>
+    </groups>
+    <test started-at="2021-07-21T23:39:49 IST" name="Smoke_Test" finished-at="2021-07-21T23:40:18 IST" duration-ms="28976">
+      <class name="testScenarios.TS_UICheck">
+        <test-method is-config="true" signature="openWebsite(java.lang.String)[pri:0, instance:testScenarios.TS_UICheck@5e600dd5]" started-at="2021-07-21T23:38:52 IST" name="openWebsite" finished-at="2021-07-21T23:39:49 IST" duration-ms="57416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method is-config="true" signature="TC_initiateClasses()[pri:0, instance:testScenarios.TS_UICheck@5e600dd5]" started-at="2021-07-21T23:39:49 IST" name="TC_initiateClasses" finished-at="2021-07-21T23:39:49 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_initiateClasses -->
+        <test-method signature="TC_selectLoanCalculator()[pri:1, instance:testScenarios.TS_UICheck@5e600dd5]" started-at="2021-07-21T23:39:49 IST" name="TC_selectLoanCalculator" finished-at="2021-07-21T23:40:09 IST" duration-ms="19483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_selectLoanCalculator -->
+        <test-method signature="TC_emiCalculator()[pri:2, instance:testScenarios.TS_UICheck@5e600dd5]" started-at="2021-07-21T23:40:09 IST" name="TC_emiCalculator" finished-at="2021-07-21T23:40:12 IST" duration-ms="3161" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <label class="btn btn-secondary">...</label> is not clickable at point (722, 641). Other element would receive the click: <iframe id="aswift_5" name="" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/html/r20210714/r20190131/zrt_lookup.html?fsb=1#RS-0-&amp;adk=1812271801&amp;client=ca-pub-6020664305604651&amp;fa=1&amp;ifi=6&amp;uci=a!6&amp;btvi=3" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" style="display: block; margin: 0px auto;" data-google-container-id="a!6" data-google-query-id="CPf6xKHh9PECFULRjwodk94LSg" data-load-complete="true"></iframe>
+  (Session info: MicrosoftEdge=91.0.864.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VG18RRG', ip: '192.168.101.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 91.0.864.71, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63633}, msedge: {msedgedriverVersion: 91.0.864.64 (3bb5c9989b78b4..., userDataDir: C:\Users\TAHSKA\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c58e63c7d59dfb8f17780f1bbf36bb7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label class="btn btn-secondary">...</label> is not clickable at point (722, 641). Other element would receive the click: <iframe id="aswift_5" name="" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/html/r20210714/r20190131/zrt_lookup.html?fsb=1#RS-0-&amp;adk=1812271801&amp;client=ca-pub-6020664305604651&amp;fa=1&amp;ifi=6&amp;uci=a!6&amp;btvi=3" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" style="display: block; margin: 0px auto;" data-google-container-id="a!6" data-google-query-id="CPf6xKHh9PECFULRjwodk94LSg" data-load-complete="true"></iframe>
+  (Session info: MicrosoftEdge=91.0.864.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VG18RRG', ip: '192.168.101.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 91.0.864.71, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63633}, msedge: {msedgedriverVersion: 91.0.864.64 (3bb5c9989b78b4..., userDataDir: C:\Users\TAHSKA\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c58e63c7d59dfb8f17780f1bbf36bb7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at mainFunctionalities.LoanCalculatorFunctionalities.checkLoanTenureTextBox(LoanCalculatorFunctionalities.java:76)
+at testScenarios.TS_UICheck.TC_emiCalculator(TS_UICheck.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_emiCalculator -->
+        <test-method signature="TC_loanAmountCalculator()[pri:3, instance:testScenarios.TS_UICheck@5e600dd5]" started-at="2021-07-21T23:40:12 IST" name="TC_loanAmountCalculator" finished-at="2021-07-21T23:40:14 IST" duration-ms="2077" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <label class="btn btn-secondary">...</label> is not clickable at point (722, 652). Other element would receive the click: <iframe id="aswift_5" name="" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/html/r20210714/r20190131/zrt_lookup.html?fsb=1#RS-0-&amp;adk=1812271801&amp;client=ca-pub-6020664305604651&amp;fa=1&amp;ifi=6&amp;uci=a!6&amp;btvi=3" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" style="display: block; margin: 0px auto;" data-google-container-id="a!6" data-google-query-id="CPf6xKHh9PECFULRjwodk94LSg" data-load-complete="true"></iframe>
+  (Session info: MicrosoftEdge=91.0.864.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VG18RRG', ip: '192.168.101.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 91.0.864.71, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63633}, msedge: {msedgedriverVersion: 91.0.864.64 (3bb5c9989b78b4..., userDataDir: C:\Users\TAHSKA\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c58e63c7d59dfb8f17780f1bbf36bb7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <label class="btn btn-secondary">...</label> is not clickable at point (722, 652). Other element would receive the click: <iframe id="aswift_5" name="" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/html/r20210714/r20190131/zrt_lookup.html?fsb=1#RS-0-&amp;adk=1812271801&amp;client=ca-pub-6020664305604651&amp;fa=1&amp;ifi=6&amp;uci=a!6&amp;btvi=3" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" style="display: block; margin: 0px auto;" data-google-container-id="a!6" data-google-query-id="CPf6xKHh9PECFULRjwodk94LSg" data-load-complete="true"></iframe>
+  (Session info: MicrosoftEdge=91.0.864.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-VG18RRG', ip: '192.168.101.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 91.0.864.71, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:63633}, msedge: {msedgedriverVersion: 91.0.864.64 (3bb5c9989b78b4..., userDataDir: C:\Users\TAHSKA\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c58e63c7d59dfb8f17780f1bbf36bb7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at mainFunctionalities.LoanCalculatorFunctionalities.checkLoanTenureTextBox1(LoanCalculatorFunctionalities.java:88)
+at testScenarios.TS_UICheck.TC_loanAmountCalculator(TS_UICheck.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1207)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loanAmountCalculator -->
+        <test-method signature="TC_loanTenureCalculator()[pri:4, instance:testScenarios.TS_UICheck@5e600dd5]" started-at="2021-07-21T23:40:14 IST" name="TC_loanTenureCalculator" finished-at="2021-07-21T23:40:18 IST" duration-ms="4162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_loanTenureCalculator -->
+        <test-method is-config="true" signature="exitBrowser()[pri:0, instance:testScenarios.TS_UICheck@5e600dd5]" started-at="2021-07-21T23:40:18 IST" name="exitBrowser" finished-at="2021-07-21T23:40:23 IST" duration-ms="4725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+      </class> <!-- testScenarios.TS_UICheck -->
+    </test> <!-- Smoke_Test -->
+  </suite> <!-- Smoke_Suite (0) -->
+</testng-results>

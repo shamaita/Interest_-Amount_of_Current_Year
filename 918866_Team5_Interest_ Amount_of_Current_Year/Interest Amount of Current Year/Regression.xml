@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression_Suite">
+
+
+
+
+	<test thread-count="1" name="Regresion_Test">
+		<classes>
+
+			<class name="testScenarios.TS_CarLoan" />
+			<class name="testScenarios.TS_HomeLoan" />
+			<class name="testScenarios.TS_PersonalLoan" />
+
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
